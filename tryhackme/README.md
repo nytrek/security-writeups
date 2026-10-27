@@ -16,7 +16,7 @@
 | Room | Difficulty | Category | Techniques |
 |------|------------|----------|------------|
 | [Cypheron](cypheron/) | Insane | AI / Red Team | ML pickle RCE (`torch.load`), static `.pt` analysis, n8n LFI (CVE-2026-21858), JWT forgery, container escape |
-| [Taking Over the Network](taking-over-the-network/) | Hard | Networking | BGP prefix hijack (longest-prefix-match), FRR/vtysh, DNS interception and exfiltration |
+| [Operation Reroute](operation-reroute/) | Hard | Networking | BGP prefix hijack (longest-prefix-match), FRR/vtysh, DNS interception and exfiltration |
 | [IronHold](ironhold/) | Hard | Web + Linux | Whitebox review, SQLi (UNION), mass assignment, Java deserialization (ysoserial) |
 | [Frankesqwen](frankesqwen/) | Hard | AI Security | LLM weight memorization, guardrail bypass, model extraction by sampling |
 | [Injectics](injectics/) | Medium | Web (PHP) | SQLi filter bypass, stacked queries (`DROP TABLE`), Twig SSTI to RCE (CVE-2022-23614) |

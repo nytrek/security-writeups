@@ -22,7 +22,7 @@ method and formats shown in full.
 | Room | Difficulty | Techniques |
 |------|------------|------------|
 | [Cypheron](tryhackme/cypheron/) | Insane | ML pickle RCE (`torch.load`), n8n LFI (CVE-2026-21858), JWT forgery, container escape |
-| [Taking Over the Network](tryhackme/taking-over-the-network/) | Hard | BGP prefix hijack (longest-prefix-match), FRR routing, DNS interception and exfil |
+| [Operation Reroute](tryhackme/operation-reroute/) | Hard | BGP prefix hijack (longest-prefix-match), FRR routing, DNS interception and exfil |
 | [IronHold](tryhackme/ironhold/) | Hard | Whitebox: SQLi (UNION), mass assignment, Java deserialization (ysoserial) |
 | [Frankesqwen](tryhackme/frankesqwen/) | Hard | AI security: LLM weight memorization, guardrail bypass, model extraction |
 | [Injectics](tryhackme/injectics/) | Medium | SQLi filter bypass, stacked queries, Twig SSTI to RCE (CVE-2022-23614) |

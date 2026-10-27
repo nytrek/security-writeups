@@ -1,6 +1,6 @@
-# Taking Over the Network - BGP Prefix Hijack → DNS Interception
+# Operation Reroute - BGP Prefix Hijack to DNS Interception
 
-> **Platform:** TryHackMe · **Room:** Taking Over the Network · **Difficulty:** Hard · **Category:** Networking / BGP / DNS
+> **Platform:** TryHackMe · **Room:** Operation Reroute · **Difficulty:** Hard · **Category:** Networking / BGP / DNS
 > **Skills:** eBGP prefix hijacking (longest-prefix-match), routing manipulation on FRR/vtysh, DNS interception, DNS exfiltration analysis, pivoting
 > **Result:** Full chain from an SSH implant on an edge router to live interception of a VIP's DNS traffic, plus a hidden Base64 easter-egg flag.
 >
@@ -26,7 +26,7 @@ Starting from an SSH foothold on our edge router (FRR "TryRouteMe"), I:
 
 ## Scenario & topology
 
-![network topology](taking-over-the-network-topology.svg)
+![network topology](operation-reroute-topology.svg)
 
 Three ASes in a line:
 
