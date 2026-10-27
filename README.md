@@ -1,32 +1,30 @@
-# DVWA Lab
+# Security writeups
 
-Writeups from working through [Damn Vulnerable Web Application](https://github.com/digininja/DVWA)
-in a local lab. Each writeup covers one vulnerability across DVWA's security
-levels, with the root cause in the source, how I exploited it, and how the
-higher levels fix it.
-
-I keep these to document what I actually did and to have something to point
-back to. Notes are written for someone who already knows the basics.
+Writeups from security labs and CTF platforms. Each one covers the root cause in
+the source, how I exploited it, and how to fix it. Written for someone who
+already knows the basics.
 
 ## Legal
 
-Everything here targets a copy of DVWA running on my own machine. DVWA is built
-to be attacked for training. Do not run any of this against systems you don't
-own or don't have written permission to test.
+Everything here targets lab environments I run myself or platforms that allow
+publishing writeups. Do not run any of this against systems you don't own or
+don't have written permission to test.
 
-## Lab
+## DVWA (local lab)
 
-How the lab is set up (OS, versions, how to reach it): [00-setup](00-setup/).
-
-## Writeups
+Lab setup (OS, versions, how to reach it): [dvwa/00-setup](dvwa/00-setup/).
 
 | # | Module | Levels | Status |
 |---|--------|--------|--------|
-| 01 | [Brute Force](writeups/01-brute-force/) | low | done |
+| 01 | [Brute Force](dvwa/01-brute-force/) | low | done |
 | 02 | Command Injection | - | planned |
 | 03 | SQL Injection | - | planned |
 | 04 | File Upload | - | planned |
 | 05 | XSS (Reflected / Stored) | - | planned |
 | 06 | CSRF | - | planned |
 
-More modules and higher levels as I get to them.
+## TryHackMe
+
+See [tryhackme/](tryhackme/).
+
+More labs, platforms and levels as I get to them.
