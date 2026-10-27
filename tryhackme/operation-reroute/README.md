@@ -1,6 +1,6 @@
 # Operation Reroute - BGP Prefix Hijack to DNS Interception
 
-> **Platform:** TryHackMe · **Room:** Operation Reroute · **Difficulty:** Hard · **Category:** Networking / BGP / DNS
+> **Platform:** TryHackMe · **Room:** [Operation Reroute](https://tryhackme.com/room/operationreroute) · **Difficulty:** Hard · **Category:** Networking / BGP / DNS
 > **Skills:** eBGP prefix hijacking (longest-prefix-match), routing manipulation on FRR/vtysh, DNS interception, DNS exfiltration analysis, pivoting
 > **Result:** Full chain from an SSH implant on an edge router to live interception of a VIP's DNS traffic, plus a hidden Base64 easter-egg flag.
 >

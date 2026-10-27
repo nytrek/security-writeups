@@ -1,6 +1,6 @@
 # Injectics - SQLi to SSTI RCE
 
-> **Platform:** TryHackMe · **Category:** Web (PHP) · **Difficulty:** Medium
+> **Platform:** TryHackMe · **Room:** [Injectics](https://tryhackme.com/room/injectics) · **Category:** Web (PHP) · **Difficulty:** Medium
 > **Target:** "Injectics Leaderboard" on Apache 2.4.41, ports `22/ssh` and `80/http`
 > **Result:** admin panel access via SQLi, then RCE through Twig SSTI (CVE-2022-23614)
 > **Note:** publication-safe copy. Flag values and room-provided credentials are redacted; the method and formats are shown in full.

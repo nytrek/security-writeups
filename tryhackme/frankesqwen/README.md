@@ -1,6 +1,6 @@
 # Frankesqwen - Recovering a Flag Memorized by an LLM
 
-> **Platform:** TryHackMe · **Category:** AI Security · **Difficulty:** Hard
+> **Platform:** TryHackMe · **Room:** [Frankesqwen](https://tryhackme.com/room/frankesqwen) · **Category:** AI Security · **Difficulty:** Hard
 > **Goal:** recover a flag memorized by a local language model (Qwen2 0.5B, fine-tuned), as a defensive exercise on LLM security
 > **Note:** publication-safe copy. The flag value and the room password are redacted; the method is shown in full.
 

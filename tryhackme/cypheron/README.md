@@ -1,6 +1,6 @@
 # Cypheron - AI Supply Chain and Pipeline RCE
 
-> **Platform:** TryHackMe · **Event:** "2026: An AI Odyssey" · **Difficulty:** Insane
+> **Platform:** TryHackMe · **Room:** [Cypheron](https://tryhackme.com/room/cypheron) · **Event:** "2026: An AI Odyssey" · **Difficulty:** Insane
 > **Scope:** two Insane rooms. In one, the ML model itself is the payload; in the other, the model is never touched and the pipeline around it is the whole attack surface.
 > **Note:** publication-safe copy. Flag values and the recovered root password are redacted; the method is shown in full. This was an event room, so confirm TryHackMe allows a public writeup before publishing.
 

@@ -1,6 +1,6 @@
 # IronHold - Whitebox Chain to Java Deserialization RCE
 
-> **Platform:** TryHackMe · **Category:** Web + Linux · **Difficulty:** Hard
+> **Platform:** TryHackMe · **Room:** [IronHold](https://tryhackme.com/room/ironhold) · **Category:** Web + Linux · **Difficulty:** Hard
 > **Type:** whitebox pentest. The full source and a live instance are provided; you read the code as an attacker and chain the bugs.
 > **Result:** default creds, SQLi, mass assignment to WARDEN, then RCE via insecure Java deserialization.
 > **Note:** publication-safe copy. Flag values and seeded credentials are redacted; the method is shown in full.
