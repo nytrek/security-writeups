@@ -1,13 +1,22 @@
-# TryHackMe
+<h1 align="center">TryHackMe - CTF Writeups</h1>
 
-Writeups for TryHackMe CTF rooms. Publication-safe: flag values and
-room-provided credentials are redacted, with the method and formats shown in
-full.
+<p align="center">
+  Walkthroughs of TryHackMe rooms, from recon to root, with the root cause at the
+  code level and how to fix it.
+</p>
 
-| Room | Focus | Difficulty | Status |
-|------|-------|------------|--------|
-| [Taking Over the Network](taking-over-the-network/) | BGP prefix hijack, DNS interception | - | done |
-| [Injectics](injectics/) | SQLi, Twig SSTI to RCE | Medium | done |
-| [IronHold](ironhold/) | SQLi, mass assignment, Java deserialization | Hard | done |
-| [Frankesqwen](frankesqwen/) | AI security, LLM weight memorization | Hard | done |
-| [Cypheron](cypheron/) | AI supply chain, pickle RCE | Insane | done |
+<p align="center">
+  <img src="https://img.shields.io/badge/rooms-5-C11B17?logo=tryhackme&logoColor=white" alt="rooms">
+  <img src="https://img.shields.io/badge/hardest-Insane-8957E5" alt="hardest difficulty">
+</p>
+
+> Publication-safe: flag values and room-provided credentials are redacted, with the
+> method and formats shown in full.
+
+| Room | Difficulty | Category | Techniques |
+|------|------------|----------|------------|
+| [Cypheron](cypheron/) | Insane | AI / Red Team | ML pickle RCE (`torch.load`), static `.pt` analysis, n8n LFI (CVE-2026-21858), JWT forgery, container escape |
+| [Taking Over the Network](taking-over-the-network/) | Hard | Networking | BGP prefix hijack (longest-prefix-match), FRR/vtysh, DNS interception and exfiltration |
+| [IronHold](ironhold/) | Hard | Web + Linux | Whitebox review, SQLi (UNION), mass assignment, Java deserialization (ysoserial) |
+| [Frankesqwen](frankesqwen/) | Hard | AI Security | LLM weight memorization, guardrail bypass, model extraction by sampling |
+| [Injectics](injectics/) | Medium | Web (PHP) | SQLi filter bypass, stacked queries (`DROP TABLE`), Twig SSTI to RCE (CVE-2022-23614) |

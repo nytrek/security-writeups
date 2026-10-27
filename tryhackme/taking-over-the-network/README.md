@@ -1,6 +1,6 @@
 # Taking Over the Network - BGP Prefix Hijack → DNS Interception
 
-> **Platform:** TryHackMe · **Room:** Taking Over the Network · **Category:** Networking / BGP / DNS
+> **Platform:** TryHackMe · **Room:** Taking Over the Network · **Difficulty:** Hard · **Category:** Networking / BGP / DNS
 > **Skills:** eBGP prefix hijacking (longest-prefix-match), routing manipulation on FRR/vtysh, DNS interception, DNS exfiltration analysis, pivoting
 > **Result:** Full chain from an SSH implant on an edge router to live interception of a VIP's DNS traffic, plus a hidden Base64 easter-egg flag.
 >
